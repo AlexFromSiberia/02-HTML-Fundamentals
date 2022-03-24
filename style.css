@@ -1,0 +1,84 @@
+body {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #0e33afd8;
+}
+
+h1 {
+  font-size: 26px;
+
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#Copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.no-bullets {
+  list-style: none;
+}
+
+/*  Working with colors */
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #10c2da;
+  border-bottom: 5px solid #10c2da;
+}
+/* Styling links */
+
+a:link {
+  color: #10c2da;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #10c2da;
+}
+a:hover {
+  color: orangered;
+  text-decoration: underline wavy orangered;
+  font-weight: bold;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
